@@ -1,0 +1,70 @@
+#Carousel {
+  position:relative;
+  height:500px;
+  padding:0 50px;
+  overflow:hidden;
+}
+#Carousel .arrow {
+  position:absolute;
+  bottom:50%;
+  z-index:2;
+  transform:translateY(50%);
+  width:50px;
+  height:50px;
+  cursor:pointer;
+}
+#Carousel .arrow.left {
+  left:8px;
+  background-position:-526px -209px;
+}
+#Carousel .arrow.right {
+  right:0;
+  background-position:-591px -209px;
+}
+#Carousel .carousel-wrapper {
+  position:absolute;
+  padding-left:0;
+  width:999999em;
+  clear:both;
+}
+#Carousel .carousel-wrapper .item-wrapper {
+  width:33.33%;
+  max-width:250px;
+  float:left;
+  margin:0 10px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box {
+  position:relative;
+  background-color:#fff;
+  color:#555;
+  text-align:center;
+  box-shadow:0 3px 10px 0 #555;
+  height:300px;
+  padding:10px;
+  margin-bottom:20px
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box p {
+  font-size:14px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:220px;
+  height:150px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon.why-choose-us {
+  background-position:0px -310px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon.testimonial {
+  background-position:-272px -350px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon.dots {
+  background-position:-440px -270px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon.iam-logistics {
+  background-position:-690px -206px;
+}
+#Carousel .carousel-wrapper .item-wrapper .product-box .icon.iam {
+  background-position:-920px -130px;
+}
